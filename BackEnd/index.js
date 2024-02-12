@@ -24,6 +24,7 @@ app.use(express.static(path.join(__dirname, "Public")));
 app.use("/api/product", productRouter);
 app.use("/api/cart", cartRouter);
 
+console.log("sdfghj");
 
 console.log(process.env.PORT);
 app.listen(process.env.PORT, () => {
